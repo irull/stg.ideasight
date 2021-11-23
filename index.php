@@ -95,7 +95,7 @@
             Wheatear we are creating the idea or helping its business expand it
             size, people at <b>IDEASIGHT</b> are builder at hearts.
           </p>
-          <a href="home">Read More</a>
+          <a href="about">Read More</a>
         </div>
       </div>
     </div>

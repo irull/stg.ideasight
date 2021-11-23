@@ -27,7 +27,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <!-- <link rel="stylesheet" href="css/portfolio.css" /> -->
+    <link rel="stylesheet" href="css/portfolio.css" />
 
     <link rel="icon" href="img/is.png" />
     <title>Portfolio</title>
@@ -84,85 +84,88 @@
       </div>
     </nav>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-bs-ride="carousel">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="exhibition/img/slider/1.jpg" class="d-block w-100" alt="slider1" width="500" height="500">
+            <img src="exhibition/img/slider/1.jpg" class="d-block w-100" alt="slider1" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="exhibition/img/slider/2.jpg" class="d-block w-100" alt="slider2" width="500" height="500">
+            <img src="exhibition/img/slider/2.jpg" class="d-block w-100" alt="slider2" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="exhibition/img/slider/6.jpg" class="d-block w-100" alt="slider3" width="500" height="500">
+            <img src="exhibition/img/slider/6.jpg" class="d-block w-100" alt="slider3" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="activation/img/slider/2.jpg" class="d-block w-100" alt="slider4" width="500" height="500">
+            <img src="activation/img/slider/2.jpg" class="d-block w-100" alt="slider4" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="activation/img/slider/3.jpg" class="d-block w-100" alt="slider5" width="500" height="500">
+            <img src="activation/img/slider/3.jpg" class="d-block w-100" alt="slider5" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="streaming/img/card/4.jpg" class="d-block w-100" alt="slider6" width="500" height="500">
+            <img src="streaming/img/card/4.jpg" class="d-block w-100" alt="slider6" width="600" height="500">
             </div>
             <div class="carousel-item">
-            <img src="streaming/img/card/9.jpg" class="d-block w-100" alt="slider7" width="500" height="500">
+            <img src="streaming/img/card/9.jpg" class="d-block w-100" alt="slider7" width="600" height="500">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
     
-    <div class="container d-flex mt-4 mb-4 justify-content-center">
-        <div class="row p-0">
-            <div class="card col-sm d-flex justify-content-center" style="width: 18rem;">
-                <img src="img/360.jpg" class="card-img-top" alt="360">
-                <div class="card-body">
-                    <h5 class="card-title">360 Ideasight Home</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="360file" class="btn btn-primary">More Details</a>
-                </div>
+
+    <div class="container">
+      <div class="row my-3">
+        <h2 class="text-center mt-4 mb-4">Porfolio</h2>
+        <div class="col-12 col-md-3 my-3">
+          <div class="hovereffect">
+            <img src="img/360experience.jpg" alt="360 experience" class="img-fluid" >
+            <div class="overlay">
+              <h2>360 Experience</h2>
+              <a class="info" href="360file">More Detail</a>
             </div>
-       
-            <div class="card col-sm" style="width: 18rem;">
-                <img src="img/360experience.jpg" class="card-img-top" alt="360 Experience">
-                <div class="card-body">
-                    <h5 class="card-title">360 Experience "VR DEMO"</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="360file_honda" class="btn btn-primary">More Details</a>
-                </div>
-            </div>
-            <div class="card col-sm" style="width: 18rem;">
-                <img src="img/streaming1.jpg" class="card-img-top" alt="streaming">
-                <div class="card-body">
-                    <h5 class="card-title">Streaming</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="streaming" class="btn btn-primary">More Details</a>
-                </div>
-            </div>
-            <div class="card col-sm" style="width: 18rem;">
-                <img src="img/activation.jpg" class="card-img-top" alt="acrivation">
-                <div class="card-body">
-                    <h5 class="card-title">Activation</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="activation" class="btn btn-primary">More Details</a>
-                </div>
-            </div>
-            <div class="card col-sm" style="width: 18rem;">
-                <img src="img/exhibition.jpg" class="card-img-top" alt="exhibition">
-                <div class="card-body">
-                    <h5 class="card-title">Exhibition Contractor</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="exhibition" class="btn btn-primary">More Details</a>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-12 col-md-3 my-3">
+          <div class="hovereffect">
+            <img src="img/streaming1.jpg" alt="Streaming" class="img-fluid" >
+            <div class="overlay">
+              <h2>Streaming</h2>
+              <a class="info" href="streaming">More Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 my-3">
+          <div class="hovereffect">
+            <img src="img/activation.jpg" alt="Activation" class="img-fluid" >
+            <div class="overlay">
+              <h2>Activation</h2>
+              <a class="info" href="activation">More Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 my-3">
+          <div class="hovereffect">
+            <img src="img/exhibition.jpg" alt="360 experience" class="img-fluid" >
+            <div class="overlay">
+              <h2>Exhibition</h2>
+              <a class="info" href="exhibition">More Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <footer>
+      <p>© 2021 Ideasight, Inc<br>
+    </footer>
+
+            
     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

@@ -1,6 +1,6 @@
 <?php
 //koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "ideasight");
+$conn = mysqli_connect("localhost", "idet8127_ideasight", "Putrimalu29", "idet8127_registrasi");
 
 //Query
 

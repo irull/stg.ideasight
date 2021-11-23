@@ -51,50 +51,36 @@ if(!isset($_SESSION["login"])) {
           <li>
             <img src="img/slider/1.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/2.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/3.jpg"> <!-- random image -->
             <div class="caption right-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/4.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/5.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/6.jpg"> <!-- random image -->
             <div class="caption right-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
             <img src="img/slider/7.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
           </li>
         </ul>
@@ -103,89 +89,57 @@ if(!isset($_SESSION["login"])) {
       <!-- STREAMING Package -->
       <section id="webinar" class="webinar">
         <div class="container">
-          <div class="row">
+          <div class="row center">
             <h3 class="center grey-text text-darken-3">STREAMING PACKAGE</h3>
             <h3 class="grey-text text-darken-3">Webinar</h3>
             <div class="col m6 s12">
               <p>SEMINAR</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>MEETING</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>TALK SHOW</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>GATHERING</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
             </div> 
             <div class="col m6 s12">
               <p>LAUNCHING</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>WORKSHOP</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>REUNION</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>PRESS CONFERENCE</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
             </div> 
         </div>
       </section>
 
       <section id="webinar" class="webinar">
         <div class="container">
-          <div class="row">
+          <div class="row center">
             <h3 class="grey-text text-darken-3">Platform</h3>
             <div class="col m6 s12">
-              <h4 class="rey-text text-darken-3">Media</h4>
+              <!-- <h4 class="rey-text text-darken-3">Media</h4> -->
                 <p>Zoom</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>WebEx</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>Microsoft Teams</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>MGoogle Meet</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
             </div> 
             <div class="col m6 s12">
-              <h4 class="grey-text text-darken-3">Streaming</h4>
+              <!-- <h4 class="grey-text text-darken-3">Streaming</h4> -->
               <p>YouTube</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>Facebook</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>Instagram</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
                 <p>Restream</p>
-                <div class="progress">
-                  <div class="determinate deep-orange" style="width: 100%"></div>
-                </div>
+                <hr>
             </div> 
         </div>
       </section>

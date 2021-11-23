@@ -48,29 +48,27 @@ if(!isset($_SESSION["login"])) {
 
         <!-- Paralax -->
         <div class="parallax-container">
-          <div class="parallax"><img src="img/header.png" height="900"></div>
+          <div class="parallax"><img src="img/about header.jpg" height="900px"></div>
         </div>
 
         <div class="container">
-          <div class="row center">
-            <h3>About Us</h3>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
-              <span class="white-text">
-                <h5>Why: Your Reason for Being</h5> <br> 
-                    1. One door for all services from planning to reporting include production <br>
-                    2. Full Services at all aspects on ground activity <br>
-                    3. High Quality Facilities and back-office support <br>
-                    4. Comprehensive Program Briefing: sent nationwide to achieve high standard of
-                    quality <br>
-                    5. Capability to carry out and execute daily activities of multiple brands simultaneously
-              </span>
+          <h3 class="center">About Us</h3>
+          <div class="row center ">
+            <div class="col s12">
+              <img class="responsive-img" src="img/about 1.jpg" width="1000px" alt="about Us">
+            </div>
+            <div class="col s12">
+              <img class="responsive-img" src="img/about 2.jpg" width="1000px" alt="about Us">
+            </div>
+            <div class="col s12">
+              <img class="responsive-img" src="img/about 3.jpg" width="1000px" alt="about Us">
+            </div>
+            <div class="col s12">
+              <img class="responsive-img" src="img/about 4.jpg" width="1000px" alt="about Us">
             </div>
           </div>
         </div>
+
         <div class="container">
           <div class="row center">
             <h3>Location</h3>

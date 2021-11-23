@@ -54,22 +54,16 @@ if(!isset($_SESSION["login"])) {
         <div class="container">
           <div class="row center">
             <h3>Contact Us</h3>
-            <div class="col m6 s12 center">
-              <div class="card">
-                <!-- <i class="material-icons small">account_circle</i>
-                <h4>Contact Us</h4> -->
-                <img src="img/Contact1.png">
-              </div>
+            <div class="col s12 m6">
+              <img src="img/2431640.png">
             </div>
-            <div class="col m6 s12 center">
-              <div class="card">
-                <!-- <i class="material-icons small">account_circle</i>
-                <h4>Contact Us</h4> -->
-                <img src="img/contact2.png">
-              </div>
+            <div class="col s12 m6">
+              <img src="img/2431640.png">
             </div>
           </div>
         </div>
+
+
         <div class="container">
           <div class="row center">
             <h3>Location</h3>
